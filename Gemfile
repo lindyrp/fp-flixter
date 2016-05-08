@@ -30,6 +30,11 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+# Use Simple Form for building forms
+gem 'simple_form'
+
+gem 'devise'
+
 gem 'rails_12factor', group: :production
 
 group :doc do
