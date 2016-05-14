@@ -43,6 +43,8 @@ gem 'fog', "~> 1.3.1"
 
 gem 'mini_magick', '~>4.3.1'
 
+gem 'carrierwave-aws'
+
 gem 'rails_12factor', group: :production
 
 group :doc do
