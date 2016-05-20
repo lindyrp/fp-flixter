@@ -45,6 +45,8 @@ gem 'mini_magick', '~>4.3.1'
 
 gem 'carrierwave-aws'
 
+gem 'stripe'
+
 gem 'rails_12factor', group: :production
 
 group :doc do
