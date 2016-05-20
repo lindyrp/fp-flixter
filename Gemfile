@@ -47,6 +47,8 @@ gem 'carrierwave-aws'
 
 gem 'stripe'
 
+gem 'ranked-model'
+
 gem 'rails_12factor', group: :production
 
 group :doc do
