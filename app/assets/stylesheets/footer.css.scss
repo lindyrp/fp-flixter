@@ -41,6 +41,10 @@ body {
   text-decoration: none;
 }
 
+.social-images {
+  margin-top: 6px;
+}
+
 $footer-height-mobile: 325px;
 @media (max-width: 750px) {
   #footer {

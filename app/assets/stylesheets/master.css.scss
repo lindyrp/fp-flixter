@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
   border-radius: 0px;
 }
 
+.label {
+  border-radius: 0px;
+}
+
 body {
   background: url('white_wall_hash.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
@@ -62,7 +66,7 @@ body {
   padding: 10px;
 }
 
-.booyah-box h2, .booyah-box h1 {
+.booyah-box h2, .booyah-box h1, .booyah-box p {
   margin: 10px;
 }
 

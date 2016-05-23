@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Flixter</title>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <title>Flixter | Get Learning!</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
@@ -71,31 +73,31 @@
       <div class = "col-xs-12 col-sm-3">
         <b>About</b>
         <br />
-        <%= link_to 'Team', '#' %>
+        <%= link_to 'Team', team_path %>
         <br />
-        <%= link_to 'Careers', '#' %>
+        <%= link_to 'Careers', careers_path %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class = "col-xs-12 col-sm-3">
         <b>Contact</b>
         <br />
-        lindy@flixter.com
+        <a href="mailto:lrpsdev@gmail.com?subject=Regarding%20Flixter">lrpsdev@gmail.com</a>
         <br />
-        789 Logan Square Blvd.
+        123 Logan Square Blvd.
         <br />
         Chicago, IL 60657
       </div>
       <div class = "col-xs-12 col-sm-3 social">
         <b>Social</b>
-        <br />
-        <br />
-        <%= link_to 'http://github.com/lindyrp' do %>
-          <%= image_tag 'github.png', class: 'social-button' %>
-        <% end %>
-        <%= link_to 'https://www.linkedin.com/in/lindysinclair' do %>
-          <%= image_tag 'linked_in.png', class: 'social-button', class: 'social-button' %>
-        <% end %>
+        <div class = "social-images">
+          <%= link_to 'http://github.com/lindyrp' do %>
+            <%= image_tag 'github.png', class: 'social-button' %>
+          <% end %>
+          <%= link_to 'https://www.linkedin.com/in/lindysinclair' do %>
+            <%= image_tag 'linked_in.png', class: 'social-button'%>
+          <% end %>
+        </div>
       </div>
     </div>
   </div>

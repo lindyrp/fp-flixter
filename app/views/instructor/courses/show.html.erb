@@ -38,9 +38,13 @@
   <h1 class = "text-center"><%= current_course.title %></h1>
   <br />
   <%= image_tag current_course.image, class: 'img-responsive' %>
-  <%= link_to 'Preview as Student...', course_path(current_course), class: 'btn btn-warning pull-right' %>
   <br class = 'clr' />
 
+  <div class = "text-center">
+    <%= link_to 'Preview as Student...', course_path(current_course), class: 'btn btn-warning text-center' %>
+  </div>
+  <br />
+  
   <div class = "text-center">
     <!-- New Section: Button trigger modal -->
     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#newSectionModal">
